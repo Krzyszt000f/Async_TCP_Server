@@ -1,0 +1,21 @@
+Wymagania funkcjonalne
+1. Użytkownik uruchamia aplikację serwera.
+2. Serwer rozpoczyna działanie od razu po uruchomieniu aplikacji.
+3. Serwer działa bez przerwy do momentu przerwania procesu przez użytkownika
+4. Klient łączy się z aplikacją serwera.
+5. Klient przesyła dwie liczby do serwera, serwer na podstawie przesłanych danych obliczas sumę liczb i odsyła ją w wiadomości zwrotnej
+do kienta
+6. Serwer kończy połączenie z aplikacją klienta.
+
+Wymagania pozafunkcjonalne
+1. Aplikacja serwera jest dostarczona w postaci aplikacji konsolowej przeznaczonej na system
+Windows.
+2. W komunikacji klient-serwer wykorzystywany jest protokół komunikacyjny Raw –
+wiadomości przesyłane są bezpośrednio.
+3. W ramach serwera nie jest implementowana obsługa rozłączającego się klienta.
+4. W ramach serwera nie jest implementowana informacja o wyłączeniu serwera przysłana do
+klienta.
+5. Serwer utrzymuje może utrzymywać wiele połaczeń jednocześnie
+6. Serwer w celu zasymulowania obliczeń, przed wysłaniem wiadomości zwrotnej oczekuje 10 sekund.
+7. Implementacja serwera nie jest wersjonowana.
+8. Serwer do działania wymaga .NET w wersji minimum 4.0.
